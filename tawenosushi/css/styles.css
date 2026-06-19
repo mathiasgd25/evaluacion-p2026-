@@ -23,3 +23,111 @@ img {
 body {
   font-size: 1.6rem;
 }
+
+.navbar {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5.2rem;
+  padding: 3.2rem 3.2rem;
+  border-bottom: 0.1rem solid #e0ddd5;
+}
+
+.contenedor {
+  width: 140rem;
+  margin: auto;
+}
+
+.titulo {
+  color: #1a1a1a;
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+}
+
+.reserva {
+  background-color: #c0392b;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0.6rem 1.6rem;
+  border-radius: 0.6rem;
+  list-style: none;
+}
+
+.enlaces {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2.8rem;
+  font-size: 1.2rem;
+  list-style: none;
+  color: #555555;
+}
+
+.heroe{
+  background-color: #000000;
+  padding-top: 6.4rem;
+  padding-bottom: 6.4rem;
+  padding-right: 3.2rem;
+  padding-left: 3.2rem;
+  display: flex;
+  align-items: center;
+  flex-basis: 50%;
+}
+
+.upper{
+  color: #c0392b;
+  border: 0.1rem solid rgba(192,57,43,0.5);
+  font-size: 1rem;
+  padding: 0.4rem 1.2rem;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+}
+
+.slogan{
+  color: #ffffff;
+  font-size: 3.6rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 1.4rem ;
+}
+
+.descripcion {
+  color: #888888;
+  font-size: 1.3rem;
+  line-height: 1.8;
+  max-width: 34rem;
+  margin-bottom: 2.8rem;
+}
+
+.boton1{
+  background-color: #c0392b;
+  color: #ffffff;
+  font-size:1.2rem ;
+  font-weight:bold ;
+  padding: 1.2rem 2.2rem;
+  border-radius:0.6rem ;
+  background:#a93226;
+}
+
+.boton2{
+  background-color: transparent;
+  border: 0.1rem solid rgba(255, 255, 255, 0.2);
+  color: #cccccc;
+  font-size:1.2rem ;
+  padding:1rem 1.8rem ;
+  border-radius:0.6rem ;
+}
+
+.menu-principal{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 2.8rem;
+  color: #c0392b;
+  font-size: 1rem;
+  margin-bottom: 0.6rem;
+  
+}
