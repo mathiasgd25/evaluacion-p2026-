@@ -532,3 +532,107 @@ body {
     cursor: pointer;
 }
 
+
+.footer-principal {
+    background-color: #111111;
+    padding: 3.6rem 3.2rem 2rem;
+}
+
+
+.footer-principal ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.footer-columnas {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 2.8rem;
+}
+
+
+.columna-marca {
+    flex-basis: 35%;
+}
+
+.columna-marca h3 {
+    color: #ffffff;
+    font-size: 12rem; 
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+}
+
+.columna-marca p {
+    color: #666666;
+    font-size: 1.1rem;
+    line-height: 1.9;
+}
+
+
+.columna-nav {
+    flex-basis: 18%; 
+}
+
+.columna-nav h4 {
+    color: #999999;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+
+.columna-nav li {
+    font-size: 1.1rem;
+    color: #666666;
+    line-height: 1.9;
+}
+
+.columna-nav a {
+    color: #666666;
+    text-decoration: none; 
+}
+
+.columna-nav a:hover {
+    color: #ffffff; 
+}
+
+
+.footer-inferior {
+    border-top: 0.1rem solid #222222;
+    padding-top: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.copyright {
+    font-size: 1rem;
+    color: #444444;
+}
+
+
+.lista-redes {
+    display: flex;
+}
+
+
+.lista-redes li {
+    margin-right: 1.6rem;
+}
+
+.lista-redes li:last-child {
+    margin-right: 0; 
+}
+
+.lista-redes a {
+    font-size: 1rem;
+    color: #444444;
+    text-decoration: none;
+}
+
+.lista-redes a:hover {
+    color: #c0392b; 
+}
