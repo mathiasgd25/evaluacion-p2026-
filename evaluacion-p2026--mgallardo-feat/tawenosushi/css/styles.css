@@ -131,3 +131,220 @@ body {
   margin-bottom: 0.6rem;
   
 }
+
+.seccion-menu {
+    background-color: #ffffff;
+    padding: 4.8rem 3.2rem;
+}
+
+/* --- Encabezado de la sección --- */
+.encabezado-menu {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 2.8rem;
+}
+
+.etiqueta-superior {
+    color: #c0392b;
+    font-size: 1rem;
+    margin-bottom: 0.6rem;
+    display: block; 
+}
+
+.encabezado-menu h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.enlace-ver-todos {
+    color: #555555;
+    font-size: 1.2rem;
+    border-bottom: 0.1rem solid #e0ddd5;
+    text-decoration: none; 
+}
+
+.enlace-ver-todos:hover {
+    color: #c0392b;
+    border-color: #c0392b;
+}
+
+
+.fila-tarjetas {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+
+.tarjeta-producto {
+    
+    flex-basis: 23%; 
+    background-color: #ffffff;
+    border: 0.1rem solid #e0ddd5;
+    border-radius: 1rem;
+    overflow: hidden; 
+    margin-right: 1.5rem; 
+}
+
+
+.ultima-tarjeta {
+    margin-right: 0;
+}
+
+.tarjeta-producto img {
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.card-info {
+    padding: 1.2rem;
+}
+
+.card-info h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+}
+
+.descripcion {
+    font-size: 1.1rem;
+    color: #555555;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+
+.tarjeta-pie {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.precio {
+    color: #c0392b;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.boton-agregar {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.boton-agregar:hover {
+    background-color: #c0392b;
+}
+
+
+
+
+.seccion-mas-pedidos {
+    background-color: #f2f0eb;
+    padding: 4.8rem 3.2rem;
+    border-top: 0.1rem solid #e0ddd5;
+    border-bottom: 0.1rem solid #e0ddd5;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+.encabezado-pedidos {
+    flex-basis: 28rem;
+    flex-shrink: 0; 
+    margin-right: 4.8rem;
+}
+
+.encabezado-pedidos .etiqueta-superior {
+    color: #c0392b;
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.encabezado-pedidos h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.descripcion-pedidos {
+    font-size: 1.2rem;
+    color: #555555;
+    line-height: 1.7;
+}
+
+
+.lista-pedidos {
+    flex: 1; 
+    list-style: none; 
+}
+
+
+.item-pedido {
+    display: flex;
+    align-items: center;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-bottom: 0.1rem solid #e0ddd5;
+}
+
+
+.item-pedido:last-child {
+    border-bottom: none;
+}
+
+/* --- Imagen del producto --- */
+.item-pedido img {
+    width: 5.2rem;
+    height: 5.2rem;
+    object-fit: cover;
+    border-radius: 0.8rem;
+    margin-right: 1.4rem;
+}
+
+.info-pedido {
+    display: flex;
+    flex-direction: column; 
+}
+
+.nombre-pedido {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333333;
+}
+
+.detalle-pedido {
+    font-size: 1.1rem;
+    color: #555555;
+    margin-top: 0.2rem;
+}
+
+
+.precio-pedido {
+    margin-left: auto; 
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.precio-pedido .precio {
+    color: #c0392b;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.cantidad-pedidos {
+    font-size: 1rem;
+    color: #555555;
+    margin-top: 0.2rem;
+}
+
